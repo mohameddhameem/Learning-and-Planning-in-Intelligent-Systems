@@ -1,0 +1,35 @@
+
+============================================================
+COMPARISON REPORT: DQN vs REINFORCE
+============================================================
+
+1. FINAL PERFORMANCE (last 100 episodes)
+------------------------------------------------------------
+DQN:
+  Mean Return: -77.98 ± 7.29
+  Seeds Solved: 0/3
+
+REINFORCE:
+  Mean Return: -607.58 ± 336.04
+  Seeds Solved: 0/3
+
+Winner: DQN
+
+2. SAMPLE EFFICIENCY (steps to reach 200 reward)
+------------------------------------------------------------
+DQN:
+  Mean Steps: N/A (not reached)
+
+REINFORCE:
+  Mean Steps: N/A (not reached)
+
+More Efficient: Neither (both didn't reach threshold)
+
+3. STABILITY
+------------------------------------------------------------
+DQN Variance: 7.29
+REINFORCE Variance: 336.04
+
+More Stable: DQN
+
+============================================================
